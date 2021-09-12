@@ -86,3 +86,21 @@ body * {
     background-size: 25%, cover;
     background-position: center;
 }
+
+#testimonials {
+    padding: 80px 0 160px 0;
+}
+
+.user-button {
+    padding: 32px;
+    border-radius: 24px;
+}
+
+.user-button-active {
+    box-shadow: 0 10px 30px #F0F2F5;
+}
+
+.fa-star {
+    color: #05D96D;
+}
+
