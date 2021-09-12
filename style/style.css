@@ -38,6 +38,10 @@ body * {
     color: #929499;
 }
 
+.text-green {
+    color: #05D96D;
+}
+
 .btn {
     padding: 16px 24px;
     font-weight: 500;
@@ -114,4 +118,22 @@ body * {
 #free-trial {
     color: white;
     background-color: #0075FF;
+}
+
+footer {
+    background-color: #222429;
+    padding: 80px 0 120px 0;
+}
+
+.social-button {
+    width: 64px;
+    height: 64px;
+    background-color: white;
+    border-radius: 99px;
+    padding-top: 16px;
+    transition: 0.33s;
+}
+
+.social-button:hover {
+    box-shadow: 0 5px 20px black;
 }
