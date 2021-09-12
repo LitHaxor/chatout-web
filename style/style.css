@@ -50,6 +50,13 @@ body * {
     box-shadow: 0 10px 30px rgba(5,217,109, 0.75)
 }
 
+.btn-green-pill {
+    background-color: #05D96D;
+    color: white;
+    border-radius: 99px;
+    
+}
+
 .btn-trans {
     background-color: transparent;
     color: black;
@@ -97,10 +104,14 @@ body * {
 }
 
 .user-button-active {
-    box-shadow: 0 10px 30px #F0F2F5;
+    box-shadow: 0 5px 25px #F0F2F5;
 }
 
 .fa-star {
     color: #05D96D;
 }
 
+#free-trial {
+    color: white;
+    background-color: #0075FF;
+}
