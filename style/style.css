@@ -1,3 +1,54 @@
-h1 {
-    color: red;
+body {
+    font-family: "Inter";
+    letter-spacing: -0.5px;
+/*    background-color: #B6F7D7;*/
+}
+
+body * {
+    margin: 0;
+}
+
+.lg-xbold {
+    font-weight: 800;
+    font-size: 48px;
+    letter-spacing: -2px;
+}
+
+.rg-book {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.rg-bold {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.text-gray {
+    color: #929499;
+}
+
+.btn {
+    padding: 16px 24px;
+    font-weight: 500;
+    border-radius: 12px;
+}
+
+.btn-green {
+    background-color: #05D96D;
+    color: white;
+    box-shadow: 0 10px 30px rgba(5,217,109, 0.75)
+}
+
+.btn-trans {
+    background-color: transparent;
+    color: black;
+}
+
+#landing {
+    padding: 80px 0;
+}
+
+.glass-morph {
+    transform: rotate(8deg);
 }
