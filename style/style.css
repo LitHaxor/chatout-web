@@ -11,7 +11,12 @@ body * {
 .lg-xbold {
     font-weight: 800;
     font-size: 48px;
-    letter-spacing: -2px;
+    letter-spacing: -1px;
+}
+
+.secondary-header {
+    font-weight: 600;
+    font-size: 24px;
 }
 
 .rg-book {
@@ -61,4 +66,15 @@ body * {
 #users {
     background-color: #f7f7f9;
     padding: 40px 0;
+}
+
+#how-it-works {
+    padding: 80px 0;
+}
+
+.hiw-jumbo {
+    background-color: #222429;
+    color: white;
+    padding: 48px;
+    border-radius: 32px
 }
