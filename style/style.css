@@ -24,6 +24,11 @@ body * {
     font-size: 18px;
 }
 
+.rg-semi {
+    font-weight: 600;
+    font-size: 18px;
+}
+
 .text-gray {
     color: #929499;
 }
@@ -51,4 +56,9 @@ body * {
 
 .glass-morph {
     transform: rotate(8deg);
+}
+
+#users {
+    background-color: #f7f7f9;
+    padding: 40px 0;
 }
