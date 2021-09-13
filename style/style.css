@@ -191,3 +191,27 @@ footer {
     box-shadow: 0 5px 20px black;
     transform: scale(1.1);
 }
+
+@media only screen and (max-width: 600px) {
+    .glass-morph {
+        width: 100%;
+    }
+    
+    #landing {
+        padding: 120px 0;
+        background-image: url(images/green-ellipse.svg), url(images/green-ellipse.svg), url(images/blue-ellipse.svg);
+        background-repeat: no-repeat;
+        background-position: -50% 0%, 50% 50%, 150% 100%;
+        background-size: 50%, 100%, 50%;
+    }
+    
+    #testimonials {
+        padding: 80px 0 160px 0;
+        background-image: none;
+    }
+    
+    footer ul {
+        margin-bottom: 32px;
+    }
+    
+}
