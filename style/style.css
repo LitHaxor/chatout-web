@@ -51,14 +51,24 @@ body * {
 .btn-green {
     background-color: #05D96D;
     color: white;
-    box-shadow: 0 10px 30px rgba(5,217,109, 0.75)
+    box-shadow: 0 10px 30px rgba(5,217,109, 0.75);
+    transition: 0.33s;
+}
+
+.btn-green:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 30px rgba(5,217,109, 0.5);
 }
 
 .btn-green-pill {
     background-color: #05D96D;
     color: white;
     border-radius: 99px;
-    
+    transition: 0.33s;
+}
+
+.btn-green-pill:hover {
+    transform: scale(1.05);
 }
 
 .btn-trans {
@@ -66,12 +76,25 @@ body * {
     color: black;
 }
 
-#landing, #how-it-works, #contour {
-    padding: 80px 0;
+#landing {
+    padding: 00px 0;
+    
+    background-image: url(images/green-ellipse.svg), url(images/green-ellipse.svg), url(images/blue-ellipse.svg);
+    background-repeat: no-repeat;
+    background-position: -30% 20%, 75% 75%, 110% -100%;
+    background-size: 35%, 35%, 35%;
 }
 
 .glass-morph {
-    transform: rotate(8deg);
+    width: 125%;
+}
+
+#how-it-works{
+    padding: 80px 0;
+    background-image: url(images/green-ellipse.svg), url(images/blue-ellipse.svg);
+    background-repeat: no-repeat;
+    background-position: -25% 80%, 125% 20%;
+    background-size: 35%
 }
 
 #users {
@@ -87,19 +110,27 @@ body * {
     background-color: #222429;
     color: white;
     padding: 48px;
-    border-radius: 32px
+    border-radius: 32px;
+    
+    box-shadow: 0 10px 30px rgba(5,217,109,0.15);
 }
 
 #contour {
+    padding: 80px 0;
+    
     color: white;
     background-image: url(images/contour.svg), url(images/contour-bg.svg);
     background-repeat: no-repeat;
-    background-size: 25%, cover;
+    background-size: 35%, cover;
     background-position: center;
 }
 
 #testimonials {
     padding: 80px 0 160px 0;
+
+    background-image: url(images/blue-ellipse.svg), url(images/green-ellipse.svg);
+    background-repeat: no-repeat;
+    background-position: -20% 0%, 120% 100%;
 }
 
 .user-button {
@@ -136,4 +167,5 @@ footer {
 
 .social-button:hover {
     box-shadow: 0 5px 20px black;
+    transform: scale(1.1);
 }
