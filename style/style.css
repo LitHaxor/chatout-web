@@ -205,9 +205,36 @@ footer {
         background-size: 50%, 100%, 50%;
     }
     
+    .hiw-jumbo {
+        padding: 32px
+    }
+    
     #testimonials {
         padding: 80px 0 160px 0;
         background-image: none;
+    }
+    
+    .user-button {
+        padding: 16px;
+        border-radius: 16px;
+    }
+    
+    #free-trial {
+        text-align: center;
+    }
+    #free-trial .btn-green-pill {
+        margin-top: 8px;
+        width: 100%;
+    }
+    
+    .social-button {
+        width: 48px;
+        height: 48px;
+        padding-top: 10px;
+    }
+    
+    .social-button img {
+        height: 24px;
     }
     
     footer ul {
