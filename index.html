@@ -293,40 +293,10 @@
         
         
 <!--        <script type="text/javascript">window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/fahimabdullahh/chatout', text: '<i class="far fa-calendar mr-1"></i> Schedule a Demo', color: '#0075ff', textColor: '#ffffff', branding: false }); }</script>-->
-        
+        <script src="./scripts/index.js"></script>
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-NS70F724BD"></script>
-        <script>
-            function handleActiveUser(user){
-                var userComment = document.getElementById('user-comment');
-                var yana = document.getElementById('yana');
-                var nosiul = document.getElementById('nosiul');
-                var nafisa = document.getElementById('nafisa');
-            
-                yana.classList.remove('user-button-active');
-                nosiul.classList.remove('user-button-active');
-                nafisa.classList.remove('user-button-active');
-                // yana.className.replace("user-button-active","");
-                // nosiul.className.replace("user-button-active","");
-                // nafisa.className.replace("user-button-active","");
-                if(user === 'nafisa'){
-                    userComment.innerText="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.";
-                    nafisa.className += " user-button-active";
-                    
-                }
-                else if(user === 'nosiul'){
-                    userComment.innerText = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos nemo et voluptas vero eveniet officiis, unde saepe delectus amet tempora fugiat soluta. Eveniet nesciunt quos mollitia fuga accusantium adipisci aspernatur.";
-                    nosiul.className +=  " user-button-active";
-                }
-                else if(user === 'yana'){
-                    userComment.innerText= "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat modi porro omnis ipsa officiis earum officia molestias voluptas, tenetur quibusdam cupiditate eveniet enim, architecto dignissimos reiciendis eligendi natus, aperiam quaerat.";
-                    yana.className += " user-button-active";
-                   
-                }
-
-            }
-        </script>
     </body>
 </html>
