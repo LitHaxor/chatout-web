@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Inter-xBold;
+    src: url(./fonts/Inter-ExtraBold.ttf);
+}
+
 body {
     font-family: "Inter";
     letter-spacing: -0.5px;
@@ -198,7 +203,7 @@ footer {
 @media only screen and (max-width: 600px) {
     
     .lg-xbold {
-        font-weight: 800;
+        font-family: "Inter-xBold";
         font-size: 40px;
         letter-spacing: -1px;
     }
