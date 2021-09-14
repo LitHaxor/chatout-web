@@ -12,7 +12,7 @@
         
         <!-- Typeface -->
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter" media="print" onload="this.media='all'"/>
-        
+        <title>Chatout - Chat, Sell, Manage.</title>
         <!-- Font Awesome -->
         <script src="https://kit.fontawesome.com/143b576c93.js" crossorigin="anonymous"></script>
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-NS70F724BD"></script>
@@ -112,7 +112,7 @@
                             <h1 class="lg-xbold text-underline" style="color: #0075FF;"><u>Step-1:</u></h1>
                             <p class="secondary-header">Connect your Facebook/Instagram pages</p>
 
-                            <p class="my-3 rg-book">Chatout helps social media sellers take orders from chats&amp; send order details to their logistics partner in 1 click.</p>
+                            <p class="my-3 rg-book">Inside the Chatout app, connect your social media pages and start receiving messages.</p>
                             
                             <p class="rg-semi text-gray mt-5"></p>
                         </div>
@@ -128,7 +128,7 @@
                             <h1 class="lg-xbold text-underline" style="color: #FFD850;"><u>Step-2:</u></h1>
                             <p class="secondary-header">Mark customer details and create orders</p>
 
-                            <p class="my-3 rg-book">Chatout helps social media sellers take orders from chats&amp; send order details to their logistics partner in 1 click.</p>
+                            <p class="my-3 rg-book">When your customers send order details(phone, address, etc.) - mark them in chats and create orders.</p>
                             
                             <p class="rg-semi text-gray mt-5"></p>
                         </div>
@@ -144,7 +144,7 @@
                             <h1 class="lg-xbold text-underline" style="color: #05D96D;"><u>Step-3:</u></h1>
                             <p class="secondary-header">Send orders for delivery in ONE click</p>
 
-                            <p class="my-3 rg-book">Chatout helps social media sellers take orders from chats&amp; send order details to their logistics partner in 1 click.</p>
+                            <p class="my-3 rg-book">Connect your delivery partner and send order details in ONE click.</p>
                             
                             <p class="rg-semi text-gray mt-5"></p>
                         </div>
@@ -180,24 +180,36 @@
                 <div class="row">
                     <div class="col-md-5">
                         
-                        <div class="user-button user-button-active d-flex">
-                            <img src="https://www.byrdie.com/thmb/58_rMDSoS5pVW2Oy7dHiDJLW8mw=/1000x1000/filters:fill(auto,1)/GettyImages-1282775976-crop-27537568e6c14e35aa82fb54d917228a.jpg" class="rounded-circle" width="80px"/>
+                        <div 
+                            class="user-button user-button-active d-flex" 
+                            onclick="handleActiveUser('nafisa')"
+                            id="nafisa"
+                        >
+                            <img src="./style/images/users/nafisa.jpg" class="rounded-circle" width="80px"/>
 
                             <div class="align-self-center pl-3">
                                 <p class="rg-bold">Nafisa Anjum</p>
                                 <p class="rg-book text-gray">Owner, Dazzling</p>
                             </div>
                         </div>
-                        <div class="user-button d-flex">
-                            <img src="https://www.byrdie.com/thmb/58_rMDSoS5pVW2Oy7dHiDJLW8mw=/1000x1000/filters:fill(auto,1)/GettyImages-1282775976-crop-27537568e6c14e35aa82fb54d917228a.jpg" class="rounded-circle" width="80px"/>
+                        <div 
+                            class="user-button d-flex" 
+                            onclick="handleActiveUser('nosiul')"
+                            id="nosiul"
+                        >
+                            <img src="./style/images/users/nosiul.jpg" class="rounded-circle" width="80px"/>
 
                             <div class="align-self-center pl-3">
                                 <p class="rg-bold">Nosiul Alam</p>
                                 <p class="rg-book text-gray">Co-Founder, Popcorn Merch</p>
                             </div>
                         </div>
-                        <div class="user-button d-flex">
-                            <img src="https://www.byrdie.com/thmb/58_rMDSoS5pVW2Oy7dHiDJLW8mw=/1000x1000/filters:fill(auto,1)/GettyImages-1282775976-crop-27537568e6c14e35aa82fb54d917228a.jpg" class="rounded-circle" width="80px"/>
+                        <div 
+                            class="user-button d-flex" 
+                            onclick="handleActiveUser('yana')"
+                            id="yana"
+                        >
+                            <img src="./style/images/users/yana.jpg" class="rounded-circle" width="80px"/>
 
                             <div class="align-self-center pl-3">
                                 <p class="rg-bold">Yana Ahmed</p>
@@ -212,7 +224,7 @@
                         <h1 class="secondary-header">Live without it!</h1>
                         <p class="rg-book"><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i></p>
 
-                        <p class="my-5 rg-book text-gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        <p class="my-5 rg-book text-gray" id="user-comment"> </p>
                     </div>
                     
                     
@@ -281,11 +293,10 @@
         
         
 <!--        <script type="text/javascript">window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/fahimabdullahh/chatout', text: '<i class="far fa-calendar mr-1"></i> Schedule a Demo', color: '#0075ff', textColor: '#ffffff', branding: false }); }</script>-->
-        
+        <script src="./scripts/index.js"></script>
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-NS70F724BD"></script>
-        
     </body>
 </html>
