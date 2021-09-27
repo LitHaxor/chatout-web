@@ -1,5 +1,6 @@
             function handleActiveUser(user){
                 var userComment = document.getElementById('user-comment');
+                var userHeading = document.getElementById('user-heading');
                 var yana = document.getElementById('yana');
                 var nosiul = document.getElementById('nosiul');
                 var nafisa = document.getElementById('nafisa');
@@ -11,16 +12,19 @@
                 // nosiul.className.replace("user-button-active","");
                 // nafisa.className.replace("user-button-active","");
                 if(user === 'nafisa'){
-                    userComment.innerText="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.";
+                    userHeading.innerText="Saves so much time!";
+                    userComment.innerText="Chatout is a life saver! It used to take me hours every night typing order details from chat to spreadsheet and then to my delivery company’s website. Now with Chatout, placing orders for delivery literally takes seconds! It’s insane.";
                     nafisa.className += " user-button-active";
                     
                 }
                 else if(user === 'nosiul'){
-                    userComment.innerText = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos nemo et voluptas vero eveniet officiis, unde saepe delectus amet tempora fugiat soluta. Eveniet nesciunt quos mollitia fuga accusantium adipisci aspernatur.";
+                    userHeading.innerText="Helps me stay organized!";
+                    userComment.innerText = "I loved chatting with my customers but as the business got bigger, it got harder to organize everything. I tried webshops, but missed interacting with my customers. Then Chatout happened - now it helps me focus on my customers while automating the boring work!";
                     nosiul.className +=  " user-button-active";
                 }
                 else if(user === 'yana'){
-                    userComment.innerText= "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat modi porro omnis ipsa officiis earum officia molestias voluptas, tenetur quibusdam cupiditate eveniet enim, architecto dignissimos reiciendis eligendi natus, aperiam quaerat.";
+                    userHeading.innerText="Amazing customer support!";
+                    userComment.innerText= "We’ve become so dependant on Chatout’s efficiency, I don’t think we can function without it anymore! Also, we can’t appreciate more of that “always on” customer support. Kudos to the team!";
                     yana.className += " user-button-active";
                    
                 }
